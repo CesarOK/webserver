@@ -4,7 +4,10 @@
 
 <body>
   Welcome to MyExample.com
-  <?php echo date('l, F jS, Y') ?>
+  <?php
+    echo date('l, F jS, Y');
+    echo $_server['HTTP_USER_AGENT'];
+    ?>
 </body>
 
 </html>
