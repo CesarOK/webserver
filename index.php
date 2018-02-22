@@ -4,7 +4,7 @@
 
 <body>
   Welcome to MyExample.com
-  <?php echo "Echo test" ?>
+  <?php echo date('l, F jS, Y') ?>
 </body>
 
 </html>
