@@ -6,7 +6,7 @@
   Welcome to MyExample.com
   <?php
     echo date('l, F jS, Y');
-    echo $_server['HTTP_USER_AGENT'];
+    echo $_SERVER['HTTP_USER_AGENT'];
     ?>
 </body>
 
