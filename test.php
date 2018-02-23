@@ -1,4 +1,6 @@
-<br>
-<?php phpinfo();
-  print "Hello World from test.php"
- ?>
+<?php
+function test(){
+  echo "Exemple function <br>";
+  return 1;
+}
+?>
