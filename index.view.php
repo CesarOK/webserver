@@ -19,7 +19,7 @@
 
 <body>
   <header>
-  	<h1><?php $greetings ?></h1>
+  	<h1><?= $greetings ?></h1>
   </header>
   <ul>
    <?php foreach ($names as $name) : ?>
