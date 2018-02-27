@@ -19,7 +19,10 @@
 
 <body>
   <header>
-  	<h1><?php echo 'Testing website, by César and Badaua' ?></h1>
+  	<h1><?php 
+  		echo 'Testing website, by César and Badaua';
+  		echo 'O que voce disse?'.htmlspecialchars($_GET['name']);	
+  	?></h1>
   </header>
   <?php
     include('test.php');
