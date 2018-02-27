@@ -21,6 +21,12 @@
   <header>
   	<h1><?php $greetings ?></h1>
   </header>
+  <ul>
+   <?php foreach ($names as $name) : ?>
+      <li><?= $name; ?></li>
+  <?php endforeach; ?>
+  </ul>
+
 </body>
 
 </html>
