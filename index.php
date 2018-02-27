@@ -20,8 +20,8 @@
 <body>
   <header>
   	<h1><?php 
-  		echo 'Testing website, by César and Badaua';
-  		echo 'O que voce disse?'.htmlspecialchars($_GET['name']);	
+  		echo 'Testing website, by César and Badaua <br>';
+  		echo 'O que voce disse?'.htmlspecialchars($_GET['falei']);	
   	?></h1>
   </header>
   <?php
