@@ -1,36 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
 
+$names = [];
 
-<head>
-	<meta charset="UTF-8">	
-	<title>Pagina do César e do Abdala</title>
-	
-	<style>
-		header {
-			background: #e3e3e3;
-			padding: 2em;
-			text-align: center;
-		}
-	</style>
+require "index.view.php"
 
-</head>
-
-
-<body>
-  <header>
-  	<h1><?php 
-  		echo 'Testing website, by César and Badaua <br>';
-  		echo 'O que voce disse?'.htmlspecialchars($_GET['falei']);	
-  	?></h1>
-  </header>
-  <?php
-    include('test.php');
-    echo date('l, F jS, Y');
-    echo "<br>";
-    echo $_SERVER['HTTP_USER_AGENT'];
-    test();
-    ?>
-</body>
-
-</html>
+ ?>
